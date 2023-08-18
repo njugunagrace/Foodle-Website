@@ -1,0 +1,71 @@
+body{
+    margin: 0 6%;
+    font-size: 20px;
+}
+
+.container{
+/* margin: 2% ; */
+}
+
+.fastFood{
+    display: flex;
+    margin:20px 70px;
+    gap: 28px;
+    
+}
+.dottedFood{
+display: flex;
+padding-left: 150px;
+gap: 100px;
+width: 110%;
+}
+.dottedFood h1{
+    font-size: 60px;
+    color: brown;
+}
+.dottedFood img{
+    height: 150%;
+    width: 100%;
+
+}
+.container button {
+    padding: 20px 45px;
+    border-radius: 30px;
+    background-color: rgb(175, 67, 67);
+    border: none;
+    color: aliceblue;
+}
+.contImage{
+
+}
+
+.person{
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+.delivery{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin: 2%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+.delivery div{
+    width: 45%;
+}
+
+.foodle{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.reg{
+    margin-right: 50%;
+    margin-top: 60px;
+  
+}
+
+.regular{
+    color: brown;
+}

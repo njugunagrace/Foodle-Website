@@ -1,0 +1,47 @@
+.discount{
+    background-image: url('../images/burgerDiscount.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-color: black;
+    width: 680px;
+    border-radius: 30px;
+}
+.discount h2{
+    color: white;
+    margin-right: 50%;
+}
+.save {
+    background-image: url('../images/strawberries.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: rgb(204, 63, 63);
+    width: 500px;
+    border-radius: 30px;
+}
+.save h2{
+    color: aliceblue;
+}
+.tacos{
+    background-image: url('../images/tacos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: goldenrod;
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.tacos h2 {
+    color: aliceblue;
+}
+.tacos p{
+    color: aliceblue;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 200px;
+    margin-left: 50px;
+}
