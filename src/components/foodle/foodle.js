@@ -6,7 +6,10 @@ import burger2 from '../images/buger2.png';
 import pizza from '../images/pizza.png';
 import fries from '../images/fries.png';
 import dotted from '../images/dotted.png';
-import "./foodle.css"
+import free from '../images/free.png';
+import freshfood from '../images/freshFood.png';
+import fastfood from '../images/FastD.png';
+import "./foodle.css";
 
 
 const Foodle = () => {
@@ -15,7 +18,7 @@ const Foodle = () => {
 
           <div className="container">
 
-            <div>
+            <div className="dFood">
 
                 <div className="dottedFood">
                 <h1>All Fast Food is Available at Foodle</h1>
@@ -27,9 +30,6 @@ const Foodle = () => {
                 <img className="person" src={person1} alt="a person"/> 
                <p>We Are Just A Click Away When You Crave For Delicious Fast Food</p>
                 </div>
-
-
-               
 
                 <button>Buy Now</button>
                 {/* <img src={play} alt="play icon"/> */}
@@ -44,19 +44,40 @@ const Foodle = () => {
 
 
             <div className="delivery">
-                <div>
-                <h2>Fast Delivery</h2> 
-                <p>The food will be delivered within 1-2 hours of your ordering</p>
+
+                <div className="fast">
+                    <div>
+                    <img src={fastfood} alt="free icon"/>
+
+                    </div>
+
+                    <div className="deliver">
+                    <h2>Fast Delivery</h2> 
+                    <p>The food will be delivered within 1-2 hours of your ordering</p>
+                    </div>
+
                 </div>
 
+              <div className="fast">
+                <div>
+                <img src={freshfood} alt="free icon"/>
+                </div>
               <div>
-                <h2>Fresh Food</h2>
+              <h2>Fresh Food</h2>
                 <p>Your food will be delivered 100% fresh to your home. We do not deliver stale food </p>
+              </div>
+                
                 </div>
 
-                <div>
-                <h2>Free Delivery</h2>
+                <div className="fast">
+                    <div> <img src={free} alt="free icon"/></div>
+
+                    <div>
+                    <h2>Free Delivery</h2>
                 <p>Your food delivery is absolutely free , no cost just order and enjoy</p>
+                    </div>
+                   
+                
                 </div>
             </div>
 

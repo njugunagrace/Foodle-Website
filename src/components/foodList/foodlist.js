@@ -73,15 +73,19 @@ const FoodList = () => {
     <div className="cont">
 
       <div className="reg">
-      <h1>Our <span className="regular">Regular</span>  Menu</h1> 
+        <div>
+        <h1>Our <span className="regular">Regular</span>  Menu</h1> 
     <p>These are our Regular Menus. You can order anything you like.</p>
+        </div>
+
+        <div>
+        <button>See All</button>           
+
+        </div>
+    
+
       </div>
             
-
-    <button>See All</button>           
-
-
-
     <div className="product-list">
       {products.map((product, index) => (
         <FoodCard

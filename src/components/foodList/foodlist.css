@@ -1,16 +1,27 @@
+body{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .cont button{
-    padding: 20px 45px;
+    padding: 20px 45px;    
     border-radius: 30px;
     background-color: rgb(175, 67, 67);
     border: none;
     color: aliceblue;
+
 }
-.cont h1{
-    /* float: left; */
-}
+
 .reg{
-    margin-right: 50%;
-  
+    display: flex;  
+    gap: 100px;
+    margin-left: 50px;
+}
+.reg h1{
+    font-size: 50px;
+
+}
+reg button{
 }
 .cont{
     margin-top: 70px;
@@ -21,14 +32,17 @@
 }
 
 
+
 .product-list{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    
 }
+
 .product-list button{
-    padding: 20px 45px;
-    border-radius: 30px;
-    background-color: rgb(175, 67, 67);
+    /* padding: 20px 45px; */
+    /* border-radius: 30px; */
+    /* background-color: rgb(175, 67, 67);
     border: none;
-    color: aliceblue;
+    color: aliceblue; */
 }
